@@ -1,0 +1,16 @@
+.title {
+    position: relative;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    margin: a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    
+}
+
+.title h1 {
+    font-size: 40px;
+}
