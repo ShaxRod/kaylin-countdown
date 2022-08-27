@@ -6,11 +6,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 500px;
+    height: 25%;
+    width: 80%;
     
 }
 
 .title h1 {
     font-size: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .title h1 {
+        font-size: 30px;
+    }
 }

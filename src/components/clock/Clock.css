@@ -1,11 +1,11 @@
 .clock {
+    width: 100%;
     position: relative;
     margin: a;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 180px;
-    width: 500px;
+    max-height: 180px;
     color: white;
     text-shadow: 1px 1px 7px;
     box-shadow:  0 0 1px 1px;
@@ -27,3 +27,33 @@
     color: silver;
     text-shadow: none;
 }
+
+/* media queries (medium devices) */
+
+@media screen and (max-width: 800px) {
+    .clock {
+        width: 100%;
+        position: relative;
+        margin: a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 150px;
+        width : fit-content;
+    }
+
+    .clock section {
+        display:  flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .clock section p {
+        font-size: 2rem;
+    }
+}
+
+
+
