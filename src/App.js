@@ -14,7 +14,7 @@ const [timerSeconds, setTimerSeconds] = useState();
 let interval;
 
 const startTimer=()=>{
-    const countDownDate= new Date('October 8, 2022').getTime();
+    const countDownDate= new Date('November 25, 2023').getTime();
 
     interval=setInterval(()=>{
         const now = new Date().getTime();
